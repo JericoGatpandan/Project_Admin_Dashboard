@@ -5,14 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Project: Admin Dashboard</title>
+
+    <!-- Boxicons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
   </head>
   <body>
     <div class="main-container">
       <div class="sidebar-container">
-        <p>Sidebar</p>
+        <div class="logo">
+          <h1><i class="bx bx-grid-alt"></i> Dashboard</h1>
+        </div>
+
+        <ul class="menu">
+          <li><i class="bx bx-home-alt-2"></i> Home</li>
+          <li><i class="bx bx-user-circle"></i> Profile</li>
+          <li><i class="bx bx-message"></i> Messages</li>
+          <li><i class="bx bx-time"></i> History</li>
+          <li><i class="bx bx-task"></i> Task</li>
+          <li><i class="bx bx-group"></i> Communities</li>
+        </ul>
+        <ul class="menu2">
+          <li><i class="bx bx-cog"></i> Setting</li>
+          <li><i class="bx bx-support"></i> Support</li>
+          <li><i class="bx bx-shield-quarter"></i> Privacy</li>
+        </ul>
       </div>
       <div class="header-container">
-        <p>Header</p>
+        <div class="top-header">
+          <div class="search-container">
+            <i class="bx bx-search"></i>
+            <input type="search" name="search" id="search" />
+          </div>
+
+          <div class="left">
+            <i class="bx bx-bell"></i>
+            <img
+              src="img/30875853_7748167.svg"
+              alt="profile picture"
+              class="profile-pic"
+            />
+            <span class="user-name">Jerico Gatpandan</span>
+          </div>
+        </div>
+        <div class="bottom-header">
+          <div class="left">
+            <img
+              src="img/30875853_7748167.svg"
+              alt="profile picture"
+              class="profile-pic"
+            />
+            <p>
+              <span>Hi there,</span><br />
+              <span class="name">Jerico Gatpandan (@jerico)</span>
+            </p>
+          </div>
+          <div class="right">
+            <button class="header-btn">New</button>
+            <button class="header-btn">Upload</button>
+            <button class="header-btn">Share</button>
+          </div>
+        </div>
       </div>
       <div class="content-container">
         <div class="project-container">
